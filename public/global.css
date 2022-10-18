@@ -1,0 +1,78 @@
+:root {
+	--navy: rgb(10, 25, 47);
+	--light-navy: #112240;
+	--lightest-navy: #233554;
+	--slate: #8892b0;
+	--light-slate: rgb(168, 178, 209);
+	--lightest-slate: rgb(204, 214, 246);
+	--white: #e6f1ff;
+	--green: #64ffda;
+	--navy-shadow: rgba(2,12,27,0.7);
+}
+
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	
+	margin: 0;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: var(--lightest-slate);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--green);
+	transition: color 200ms ease-in-out;
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
