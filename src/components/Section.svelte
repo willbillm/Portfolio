@@ -16,7 +16,6 @@
     .section-container {
         display: flex;
         flex-direction: column;
-        min-width: 900px;
         min-height: 40vh;
         margin: 250px auto 0 auto;
     }

@@ -28,5 +28,12 @@
         max-width: 800px;
         text-align: left;
     }
+
+    @media (max-width: 900px) {
+        .about p {
+            max-width: 80%;
+            font-size: 20px;
+        }
+    }
     
 </style>

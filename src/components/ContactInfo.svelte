@@ -116,4 +116,32 @@
         font-weight: 100;
     }
 
+    @media (max-width: 900px) {
+
+        .c-info {
+        margin-top: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        }
+
+        .header {
+        width: 100%;
+        font-size: 23px;
+        }
+
+        .title {
+            display: none;
+        }
+        
+        .info p {
+            font-size: 25px;
+            padding-left: 15%;
+            margin: 2% 0;
+        }
+    
+
+
+    }
+
 </style>

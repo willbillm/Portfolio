@@ -74,7 +74,7 @@
             <h1><a href="#contact" on:click|preventDefault={handleScroll}>contact</a></h1>
         </li>
         <li>
-            <button on:CLick={handleClick}><h1>resume</h1></button>
+            <a href="https://pdfhost.io/v/ToUhMXGm~_Microsoft_Word_William_McGinnis_Resumedocx"><button><h1>resume</h1></button></a>
         </li>
     </ul>
 </nav>
@@ -141,7 +141,7 @@
     }
     
     .logo-container {
-        top: 15px;
+        top: 10px;
         left: 30px;
         position: relative;
     }
@@ -157,6 +157,27 @@
 
     .down {
         transform: translateY(-100px);
+    }
+
+    @media (max-width: 900px) {
+
+        .navbar {
+            position: relative;
+            justify-content: center;
+        }
+
+        .navbar ul {
+            min-width: 0;
+            right: 7%;
+        }
+
+        .navbar li {
+            padding: 0 4%;
+        }
+
+        .logo-container {
+            display: none;
+        }
     }
 
 

@@ -70,7 +70,7 @@
 
     </div>
     <div class="project-img">
-        <img src={project.img} alt='placeholder'/>
+        <a href={`/#/image/${project.img[0]}`}><img src={project.img} alt='placeholder'/></a>
     </div>
 </div>
 
@@ -120,7 +120,7 @@
     .project h2 {
         top: 0;
         position: relative;
-        max-width: 250px;
+        max-width: 280px;
         margin-top: 15px;
         color: var(--light-slate);
         font-weight: 100;
@@ -218,6 +218,7 @@
         font-size: 17px !important;
         margin-left: 0 !important;
         padding-left: 10%;
+        max-width: 45ch !important;
         
     }
 
@@ -239,6 +240,55 @@
 
     .features-list-container {
         padding-right: 50px;
+    }
+
+    @media (max-width: 900px) {
+        .project {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+        }
+
+        .project-overview {
+            margin: 0;
+            display: block;
+            width: 100%;
+        }
+
+        .key-info {
+            display: block;
+        }
+
+        .project p {
+            padding-left: 4%;
+            font-size: 17px;
+        }
+
+        .project-img::before {
+            display: none;
+
+        }
+
+        .project h2 {
+            padding-left: 4%;
+        }
+
+        .description {
+            padding: 0 40px !important;
+        }
+
+        .project-img {
+            width: 100%;
+            margin-top: 70px;
+        }
+
+        .project-img img {
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        
+        
     }
 
 </style>

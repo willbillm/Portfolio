@@ -1,8 +1,8 @@
 <div class="skills">
-    <p>
+    <p class="header">
         Here are some of the technologies I've been working with:
     </p>
-    <ul>
+    <ul class="list">
         <li>
             <p>
                 React.js
@@ -59,4 +59,14 @@
         font-weight: 100;
     }
 
+    @media (max-width: 900px) {
+
+        .skills p {
+            max-width: 90%;
+            font-size: 20px;
+            margin: 0 30px;
+        }
+
+    }
+ 
 </style>
