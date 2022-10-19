@@ -74,7 +74,7 @@
             <h1><a href="#contact" on:click|preventDefault={handleScroll}>contact</a></h1>
         </li>
         <li>
-            <a href="https://pdfhost.io/v/ToUhMXGm~_Microsoft_Word_William_McGinnis_Resumedocx"><button><h1>resume</h1></button></a>
+            <a href="https://pdfhost.io/v/JoFMZBnGl_William_McGinnis_Resume"><button><h1>resume</h1></button></a>
         </li>
     </ul>
 </nav>
