@@ -1,4 +1,4 @@
-This site is live at 'https://willmcginnisportfolio.netlify.app'.
+This site is online at 'https://willmcginnisportfolio.netlify.app'.
 
 If you'd like to run the app in dev mode:
 
