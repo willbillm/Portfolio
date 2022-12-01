@@ -1,6 +1,6 @@
 <div class="skills">
     <p class="header">
-        Here are some of the technologies I've been working with:
+        Here are some of the technologies and concepts I've been working with:
     </p>
     <ul class="list">
         <li>
@@ -27,10 +27,33 @@
                 Svelte
             </p>
         </li>
+        <li>
+            <p>
+                Java
+            </p>
+            <p>
+                Python
+            </p>
+        </li>
+        <li class='line'>
+            <p>
+                Object oriented programming
+            </p>
+        </li>
+        <li>
+            <p>
+                Full stack development
+            </p>
+        </li>
     </ul>
 </div>
 
 <style>
+
+    .line {
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
     .skills {
         margin-top: 30px;
         display: flex;
